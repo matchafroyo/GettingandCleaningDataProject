@@ -16,7 +16,8 @@ The train and test files represent ~70% and ~30% of the total data.  The separat
     
 ###Labeling of data
     1.mergeAll is labeled appropriately with "volunteer", "activity", and names from features.txt
-    Note, the name features.txt has only 477 unique names, even though there is unique data for 561 data.  Due to nature of dcast, the names from features.txt had to be added after dcast.
+    Note, the name features.txt has only 477 unique names, even though there is unique data for 561 data.  
+    Due to nature of dcast, the names from features.txt had to be added after dcast.
     2.The labels/activity #s are replaced by descriptions from activity_labels.txt
     
 ###Analysis of data
